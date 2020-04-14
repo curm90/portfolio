@@ -3,8 +3,6 @@ import Hamburger from './Hamburger';
 import resume from '../img/resume.pdf';
 
 const SideDrawer = ({ showSideDrawer, drawerClickHandler }) => {
-  console.log(showSideDrawer);
-
   let drawerClasses = 'side-drawer__container';
 
   if (showSideDrawer) {
@@ -13,7 +11,6 @@ const SideDrawer = ({ showSideDrawer, drawerClickHandler }) => {
 
   return (
     <nav className={drawerClasses}>
-      <Hamburger drawerClickHandler={drawerClickHandler} />
       <ul className='side-drawer__list'>
         <li className='side-drawer__list-item'>
           <a className='side-drawer__link' href='#header'>

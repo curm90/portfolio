@@ -1,6 +1,9 @@
 .hamburger__icon-container {
   margin: 0 $s-size;
   font-size: $l-size;
+  // position: fixed;
+  // right: 0;
+  // top: 0;
   .hamburger__icon {
     color: white;
     cursor: pointer;

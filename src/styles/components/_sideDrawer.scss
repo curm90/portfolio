@@ -1,15 +1,15 @@
 .side-drawer__container {
-  height: 100%;
+  height: 30%;
   background: $background;
   box-shadow: 1px 0 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 400px;
   z-index: 200;
-  transform: translateX(-100%);
-  transition: transform 0.3s ease-out;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-out;
 
   .side-drawer__list {
     height: 100%;
@@ -21,7 +21,7 @@
   }
 
   .side-drawer__link {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     text-decoration: none;
     color: white;
 
@@ -33,5 +33,6 @@
 }
 
 .side-drawer__container.open {
-  transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
 }

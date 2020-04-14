@@ -1,10 +1,11 @@
 .navigation__container {
   height: $xxl-size;
-  @include flex(row, flex-start, center);
-  background: #15181e;
+  @include flex(row, flex-end, center);
+  background: $background;
   border-bottom: 3px solid $primary;
   position: fixed;
   width: 100%;
+  z-index: 500;
 
   .navigation__list {
     display: none;
