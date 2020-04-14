@@ -1,0 +1,12 @@
+.hamburger__icon-container {
+  margin: 0 $s-size;
+  font-size: $l-size;
+  .hamburger__icon {
+    color: white;
+    cursor: pointer;
+  }
+
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}

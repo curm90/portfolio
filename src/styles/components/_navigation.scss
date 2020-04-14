@@ -7,19 +7,23 @@
   width: 100%;
 
   .navigation__list {
-    @include flex(row, flex-start, center);
+    display: none;
 
-    .navigation__list-item {
-      padding: 0 $s-size;
+    @media (min-width: $tablet) {
+      @include flex(row, flex-start, center);
 
-      .navigation__link {
-        color: $light-text;
-        text-decoration: none;
-        transition: all ease-out 0.3s;
+      .navigation__list-item {
+        padding: 0 $s-size;
 
-        &:hover {
-          transition: all ease-in 0.1s;
-          color: $secondary;
+        .navigation__link {
+          color: $light-text;
+          text-decoration: none;
+          transition: all ease-out 0.3s;
+
+          &:hover {
+            transition: all ease-in 0.1s;
+            color: $secondary;
+          }
         }
       }
     }

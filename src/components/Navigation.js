@@ -1,8 +1,10 @@
 import React from 'react';
+import Hamburger from './Hamburger';
 import resume from '../img/resume.pdf';
 
 const Navigation = () => (
   <nav className='navigation__container'>
+    <Hamburger />
     <ul className='navigation__list'>
       <li className='navigation__list-item'>
         <a className='navigation__link' href='#header'>
