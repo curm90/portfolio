@@ -22,8 +22,12 @@ const Navigation = () => {
           <Backdrop backdropClickHandler={backdropClickHandler} />
         </div>
       ) : null}
+
       <Hamburger drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer showSideDrawer={sideDrawerOpen} />
+      <SideDrawer
+        showSideDrawer={sideDrawerOpen}
+        drawerClickHandler={drawerToggleClickHandler}
+      />
       <ul className='navigation__list'>
         <li className='navigation__list-item'>
           <a className='navigation__link' href='#header'>
