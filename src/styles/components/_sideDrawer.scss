@@ -1,9 +1,31 @@
 .side-drawer__container {
-  height: 40%;
-  background: white;
+  height: 100%;
+  background: $background;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
-  width: 400px;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+
+  .side-drawer__list {
+    height: 100%;
+    @include flex(column, center, center);
+  }
+
+  .side-drawer__list-item {
+    padding: $s-size;
+  }
+
+  .side-drawer__link {
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: white;
+
+    &:hover,
+    &:active {
+      color: $primary;
+    }
+  }
 }
