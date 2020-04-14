@@ -1,13 +1,9 @@
 import React from 'react';
 
-const Hamburger = () => {
-  const toggleClass = (e) => {
-    e.target.classList.toggle('toggle');
-  };
-
+const Hamburger = ({ drawerClickHandler }) => {
   return (
     <div className='hamburger__icon-container'>
-      <h1 onClick={toggleClass} className='hamburger__icon'>
+      <h1 onClick={drawerClickHandler} className='hamburger__icon'>
         &#9776;
       </h1>
     </div>
