@@ -5,18 +5,18 @@ const Navigation = () => (
   <nav className='navigation__container'>
     <ul className='navigation__list'>
       <li className='navigation__list-item'>
-        <a className='link' href='#header'>
+        <a className='navigation__link' href='#header'>
           Home
         </a>
       </li>
       <li className='navigation__list-item'>
-        <a className='link' href='#about'>
+        <a className='navigation__link' href='#about'>
           About
         </a>
       </li>
       <li className='navigation__list-item'>
         <a
-          className='link'
+          className='navigation__link'
           rel='noopener noreferrer'
           target='_blank'
           href={resume}
@@ -25,12 +25,12 @@ const Navigation = () => (
         </a>
       </li>
       <li className='navigation__list-item'>
-        <a className='link' href='#projects'>
+        <a className='navigation__link' href='#projects'>
           Projects
         </a>
       </li>
       <li className='navigation__list-item'>
-        <a className='link' href='#contact'>
+        <a className='navigation__link' href='#contact'>
           Contact
         </a>
       </li>

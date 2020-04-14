@@ -1,0 +1,27 @@
+.navigation__container {
+  height: $xxl-size;
+  @include flex(row, flex-start, center);
+  background: #15181e;
+  border-bottom: 3px solid $primary;
+  position: fixed;
+  width: 100%;
+
+  .navigation__list {
+    @include flex(row, flex-start, center);
+
+    .navigation__list-item {
+      padding: 0 $s-size;
+
+      .navigation__link {
+        color: $light-text;
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+
+        &:hover {
+          transition: all ease-in 0.1s;
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
