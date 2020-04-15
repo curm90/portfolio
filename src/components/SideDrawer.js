@@ -1,5 +1,4 @@
 import React from 'react';
-import Hamburger from './Hamburger';
 import resume from '../img/resume.pdf';
 
 const SideDrawer = ({ showSideDrawer, drawerClickHandler }) => {

@@ -7,10 +7,14 @@
   width: 100%;
   z-index: 500;
 
+  @media (min-width: $mobile) {
+    @include flex(row, flex-start, center);
+  }
+
   .navigation__list {
     display: none;
 
-    @media (min-width: $tablet) {
+    @media (min-width: $mobile) {
       @include flex(row, flex-start, center);
 
       .navigation__list-item {
