@@ -1,0 +1,17 @@
+.button {
+  padding: $s-size;
+  margin-top: $s-size;
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 2rem;
+  background: none;
+  border: 2px solid #f2eff4;
+  outline: none;
+  color: #f2eff4;
+  transition: all ease-out 0.3s;
+
+  &:hover {
+    transition: all ease-in 0.3s;
+    background: $primary;
+    border-color: $primary;
+  }
+}
