@@ -1,0 +1,17 @@
+.header-container {
+  height: 100vh;
+  @include flex(column, center, center);
+  background: #252934;
+}
+
+.header-welcome-message {
+  padding: $m-size;
+  height: 15rem;
+  @include flex(column, space-evenly, center);
+  font-size: $xl-size;
+  color: #f2eff4;
+}
+
+.name {
+  color: $primary;
+}
