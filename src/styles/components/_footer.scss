@@ -1,12 +1,17 @@
 .footer__container {
   background: $background;
   @include flex(column, space-between, center);
-  height: 55rem;
+  height: 58rem;
   padding: $xl-size 0 0 0;
 
   .title {
     color: $light-text;
     font-size: $l-size;
+  }
+
+  .contact__text {
+    font-size: $xs-size;
+    color: $secondary;
   }
 
   .links__container {
