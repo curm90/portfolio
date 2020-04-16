@@ -29,6 +29,17 @@
       color: $off-text;
       border-bottom: 1px dashed $off-text;
       text-decoration: none;
+      transition: all ease-out 0.1s;
+
+      @media (min-width: $large) {
+        font-size: $s-size;
+
+        &:hover {
+          transition: all ease-in 0.1s;
+          color: $secondary;
+          border-bottom: 1px solid $background;
+        }
+      }
     }
 
     .github {
