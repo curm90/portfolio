@@ -8,10 +8,6 @@
   font-size: $m-size;
 
   @media (min-width: $tablet) {
-    font-size: 2.6rem;
-  }
-
-  @media (min-width: $large) {
     font-size: $l-size;
   }
 }

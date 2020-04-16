@@ -1,7 +1,6 @@
 .skills__container {
   @include flex(column, flex-start, center);
   margin: $l-size 0;
-  padding: 0 1rem;
   width: 100%;
 
   .skills__list {
