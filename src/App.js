@@ -10,6 +10,7 @@ function App() {
       <Navigation />
       <Header />
       <About />
+      <Footer />
     </div>
   );
 }
