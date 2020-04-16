@@ -5,7 +5,6 @@ const Footer = () => (
   <section className='footer-container'>
     <h1 className='title'>CONTACT</h1>
     <Contact />
-    {/* <button className="button">Get in touch</button> */}
     <div className='links-container'>
       <div className='social-links'>
         <a
