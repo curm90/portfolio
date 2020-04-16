@@ -1,0 +1,30 @@
+.skills__container {
+  @include flex(column, flex-start, center);
+  margin: $l-size 0;
+  padding: 0 1rem;
+  width: 100%;
+
+  .skills__list {
+    width: 90%;
+  }
+
+  .skill-bar {
+    background: $light-text;
+    margin-bottom: 0.8rem;
+  }
+
+  .skill-level {
+    background: $primary;
+    height: 100%;
+  }
+
+  .skill {
+    font-size: $xs-size;
+    color: $light-text;
+    font-weight: bold;
+    width: 6.5rem;
+    height: 100%;
+    background: lighten($primary, 8%);
+    padding: 0.5rem;
+  }
+}

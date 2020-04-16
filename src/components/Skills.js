@@ -2,44 +2,57 @@ import React from 'react';
 
 const Skills = () => (
   <div className='skills__container'>
-    <div className='skill-list__container'>
-      <ul className='skill-list'>
-        <li>
-          <i className='fab fa-html5'></i>
-          HTML
-        </li>
-        <li>
-          <i className='fab fa-css3-alt'></i>CSS/SCSS
-        </li>
-        <li>
-          <i className='fab fa-js'></i>JavaScript
-        </li>
-        <li>
-          <i className='fab fa-react'></i>React/Redux
-        </li>
-        <li>
-          <i className='fab fa-node'></i>NodeJS/Express
-        </li>
-      </ul>
-    </div>
-    <div className='skill-list__container'>
-      <ul className='skill-list'>
-        <li>
-          <i className='fab fa-python'></i>Python
-        </li>
-        <li>
-          <i className='fab fa-sketch'></i>GraphQL/Prisma
-        </li>
-        <li>
-          <i className='fas fa-server'></i>MongoDB/Mongoose
-        </li>
-        <li>
-          <i className='fas fa-database'></i>Postgres
-        </li>
-        <li>
-          <i className='fas fa-pencil-ruler'></i>UI Design
-        </li>
-      </ul>
+    <div className='skills__list'>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '85%' }}>
+          <div className='skill'>HTML</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '85%' }}>
+          <div className='skill'>CSS</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '85%' }}>
+          <div className='skill'>JavaScript</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '85%' }}>
+          <div className='skill'>React</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '80%' }}>
+          <div className='skill'>Node</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '60%' }}>
+          <div className='skill'>Python</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '55%' }}>
+          <div className='skill'>GraphQL</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '55%' }}>
+          <div className='skill'>MongoDB</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '70%' }}>
+          <div className='skill'>Postgres</div>
+        </div>
+      </div>
+      <div className='skill-bar'>
+        <div className='skill-level' style={{ width: '75%' }}>
+          <div className='skill'>UI Design</div>
+        </div>
+      </div>
     </div>
   </div>
 );

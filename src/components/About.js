@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from './Skills';
 
 const About = () => (
   <div id='about' className='about__container'>
@@ -12,6 +13,7 @@ const About = () => (
         </p>
       </div>
     </div>
+    <Skills />
   </div>
 );
 
