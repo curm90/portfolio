@@ -4,14 +4,19 @@
   background: #252934;
 }
 
+.intro {
+  font-size: 2.1rem;
+}
+
 .header-welcome-message {
-  padding: $m-size;
   height: 15rem;
   @include flex(column, space-evenly, center);
-  font-size: $xl-size;
   color: #f2eff4;
+  text-align: center;
+  line-height: 1.1;
+  width: 100%;
 }
 
 .name {
-  color: $primary;
+  color: #f9c254;
 }
