@@ -1,12 +1,12 @@
 .button {
-  padding: $s-size;
-  margin-top: $s-size;
+  padding: $xs-size;
+  margin-top: $xs-size;
   font-family: 'Tomorrow', sans-serif;
   font-size: 1.6rem;
   background: none;
   border: 2px solid $primary;
   outline: none;
-  color: #f2eff4;
+  color: $light-text;
   background: $primary;
   // transition: all ease-out 0.3s;
 

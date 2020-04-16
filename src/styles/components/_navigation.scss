@@ -18,12 +18,13 @@
       @include flex(row, flex-start, center);
 
       .navigation__list-item {
-        padding: 0 $s-size;
+        padding: 0 $xs-size;
 
         .navigation__link {
           color: $light-text;
           text-decoration: none;
           transition: all ease-out 0.3s;
+          font-size: $s-size;
 
           &:hover {
             transition: all ease-in 0.1s;
