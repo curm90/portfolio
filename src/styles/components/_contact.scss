@@ -5,6 +5,7 @@
   .form {
     @include flex(column, center, center);
     width: 85%;
+    max-width: 60rem;
     padding: 0 $s-size;
 
     .input {
