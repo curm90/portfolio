@@ -31,7 +31,8 @@ const Footer = () => (
       </div>
       <div className='copyright__container'>
         <p className='copyright__text'>
-          &copy;2020 Made with love by Liam Sutton
+          <span className='copyright__logo'>&copy;2020</span> Liam
+          Sutton
         </p>
       </div>
     </div>
