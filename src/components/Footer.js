@@ -2,11 +2,11 @@ import React from 'react';
 import Contact from './Contact';
 
 const Footer = () => (
-  <section className='footer-container'>
+  <section className='footer__container'>
     <h1 className='title'>CONTACT</h1>
     <Contact />
-    <div className='links-container'>
-      <div className='social-links'>
+    <div className='links__container'>
+      <div className='social__links'>
         <a
           href='https://www.linkedin.com/in/liam-sutton90/'
           target='blank'
@@ -28,6 +28,11 @@ const Footer = () => (
         >
           <i className='fab fa-twitter-square'></i>
         </a>
+      </div>
+      <div className='copyright__container'>
+        <p className='copyright__text'>
+          &copy;2020 Made with love by Liam Sutton
+        </p>
       </div>
     </div>
   </section>

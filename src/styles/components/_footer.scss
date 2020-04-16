@@ -1,4 +1,4 @@
-.footer-container {
+.footer__container {
   background: $background;
   @include flex(column, space-between, center);
   height: 55rem;
@@ -9,41 +9,12 @@
     font-size: $l-size;
   }
 
-  .form {
-    @include flex(column, center, center);
-
-    .input {
-      background: #15181e;
-      outline: none;
-      appearance: none;
-      border: none;
-      padding: $s-size;
-      margin-bottom: 0.3rem;
-      width: 40rem;
-      color: $light-text;
-      font-size: $m-size;
-    }
-
-    .text-input {
-      height: 15rem;
-    }
-
-    ::placeholder {
-      color: $dark-text;
-      font-size: $m-size;
-    }
-
-    .button {
-      align-self: flex-start;
-    }
-  }
-
-  .links-container {
+  .links__container {
     width: 100%;
     @include flex(row, center, center);
     background: #15181e;
 
-    .social-links {
+    .social__links {
       @include flex(row, space-evenly, center);
       width: 35rem;
       font-size: $xl-size;

@@ -1,0 +1,36 @@
+.contact__container {
+  @include flex(column, center, center);
+  width: 100%;
+
+  .form {
+    @include flex(column, center, center);
+    width: 85%;
+    padding: 0 $s-size;
+
+    .input {
+      background: #15181e;
+      outline: none;
+      appearance: none;
+      border: none;
+      padding: 0.9rem $xs-size;
+      margin-bottom: 0.3rem;
+      width: 100%;
+      color: $light-text;
+      font-size: $m-size;
+      font-weight: 100;
+    }
+
+    .text__input {
+      height: 15rem;
+    }
+
+    ::placeholder {
+      color: $off-text;
+      font-weight: 400;
+    }
+  }
+
+  // .button {
+  //   align-self: flex-start;
+  // }
+}
