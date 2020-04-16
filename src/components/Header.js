@@ -17,29 +17,27 @@ const Header = () => (
         target='blank'
         className='linkedin link'
       >
-        <i className='fab fa-linkedin'>LinkedIn</i>
+        <i class='fab fa-linkedin-in'></i>
+        LinkedIn
       </a>
       <a
         href='https://github.com/curm90'
         target='blank'
         className='github link'
       >
-        <i className='fab fa-github-square'>GitHub</i>
+        <i class='fab fa-github'></i>
+        GitHub
       </a>
       <a
         href='https://twitter.com/curm90'
         target='blank'
         className='twitter link'
       >
-        <i className='fab fa-twitter-square'>Twitter</i>
+        <i className='fab fa-twitter'></i>
+        Twitter
       </a>
     </div>
   </section>
 );
-
-{
-  /* <i className='fab fa-github-square'></i>
-<i className='fab fa-twitter-square'></i> */
-}
 
 export default Header;

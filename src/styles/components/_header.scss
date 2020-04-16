@@ -2,23 +2,43 @@
   height: 100vh;
   @include flex(column, center, center);
   background: #252934;
-}
 
-.intro {
-  font-size: $m-size;
+  .intro {
+    font-size: $m-size;
 
-  @media (min-width: $tablet) {
-    font-size: $l-size;
+    @media (min-width: $tablet) {
+      font-size: $l-size;
+    }
   }
-}
 
-.header-welcome-message {
-  height: 15rem;
-  @include flex(column, space-evenly, center);
-  color: $light-text;
-  text-align: center;
-  line-height: 1.1;
-  width: 100%;
+  .header-welcome-message {
+    height: 15rem;
+    @include flex(column, space-evenly, center);
+    color: $light-text;
+    text-align: center;
+    line-height: 1.1;
+    width: 100%;
+  }
+
+  .links__container {
+    @include flex(row, space-evenly, center);
+    margin: $s-size 0 0 0;
+    font-size: $xs-size;
+
+    .link {
+      color: $off-text;
+      border-bottom: 1px dashed $off-text;
+      text-decoration: none;
+    }
+
+    .github {
+      margin: 0 $s-size;
+    }
+
+    i {
+      margin: 0 0.3rem 0 0;
+    }
+  }
 }
 
 @media (min-width: $tablet) {

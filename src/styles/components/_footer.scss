@@ -22,7 +22,7 @@
     .social__links {
       @include flex(row, space-evenly, center);
       width: 35rem;
-      font-size: $xl-size;
+      font-size: $l-size;
       padding: $s-size 0;
     }
 
