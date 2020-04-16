@@ -1,0 +1,33 @@
+.projects-container {
+  @include flex(column, center, center);
+  background: #f4f4ef;
+  padding: $l-size;
+
+  .project-title {
+    font-size: $l-size;
+    margin-bottom: $l-size;
+    color: #484649;
+    font-weight: bold;
+  }
+
+  .project {
+    @include flex(row, space-evenly, center);
+    width: 100%;
+    margin: $m-size;
+  }
+
+  .project:nth-child(odd) {
+    @include flex(row-reverse, space-evenly, center);
+  }
+
+  .description-text {
+    width: 60rem;
+    line-height: 1.2;
+  }
+
+  .project-image {
+    background: black;
+    width: 35rem;
+    height: 20rem;
+  }
+}
