@@ -10,11 +10,16 @@
   }
 
   .about-text__container {
+    width: 90%;
     text-align: center;
-    padding: 0 $s-size;
 
     @media (min-width: $tablet) {
       max-width: 60rem;
+    }
+
+    @media (min-width: $large) {
+      @include flex(row, space-between, center);
+      max-width: 75%;
     }
   }
 
@@ -24,7 +29,11 @@
     line-height: 1.2;
 
     @media (min-width: $tablet) {
-      font-size: $m-size;
+      font-size: $s-size;
+    }
+
+    @media (min-width: $large) {
+      max-width: 90rem;
     }
   }
 }

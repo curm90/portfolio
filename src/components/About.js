@@ -10,8 +10,8 @@ const About = () => (
         have a serious passion for learning all things programming,
         and creating seemless user experiences
       </p>
+      <Skills />
     </div>
-    <Skills />
   </div>
 );
 

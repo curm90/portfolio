@@ -9,12 +9,13 @@
 
   .skill-bar {
     background: $light-text;
-    margin-bottom: 0.8rem;
+    margin-bottom: $xs-size;
   }
 
   .skill-level {
     background: $primary;
     height: 100%;
+    text-align: left;
   }
 
   .skill {
@@ -24,6 +25,15 @@
     width: 6.5rem;
     height: 100%;
     background: lighten($primary, 8%);
-    padding: 0.5rem;
+    padding: 0.6rem;
+
+    @media (min-width: $tablet) {
+      width: 8rem;
+    }
+
+    @media (min-width: $tablet) {
+      width: 9rem;
+      font-size: $s-size;
+    }
   }
 }
