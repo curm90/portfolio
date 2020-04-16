@@ -11,7 +11,35 @@ const Header = () => (
         <button className='button'>View my work</button>
       </a>
     </div>
+    <div className='links__container'>
+      <a
+        href='https://www.linkedin.com/in/liam-sutton90/'
+        target='blank'
+        className='linkedin link'
+      >
+        <i className='fab fa-linkedin'>LinkedIn</i>
+      </a>
+      <a
+        href='https://github.com/curm90'
+        target='blank'
+        className='github link'
+      >
+        <i className='fab fa-github-square'>GitHub</i>
+      </a>
+      <a
+        href='https://twitter.com/curm90'
+        target='blank'
+        className='twitter link'
+      >
+        <i className='fab fa-twitter-square'>Twitter</i>
+      </a>
+    </div>
   </section>
 );
+
+{
+  /* <i className='fab fa-github-square'></i>
+<i className='fab fa-twitter-square'></i> */
+}
 
 export default Header;
