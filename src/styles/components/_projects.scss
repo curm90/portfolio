@@ -10,10 +10,12 @@
     margin: 0 0 $l-size 0;
   }
 
-  .project-image__container {
-    width: 100%;
-    height: 22rem;
-    background: #15181e;
+  .project {
+    margin: $m-size 0;
+  }
+
+  .project__title {
+    padding: 0 $s-size;
   }
 
   .project__description {
@@ -25,11 +27,17 @@
 
   .tech__container {
     height: 100%;
+    margin: $xs-size 0;
 
     .tech__list {
+      margin: 0 $xs-size;
       .tech {
         color: black;
-        font-size: $xs-size;
+        font-size: $s-size;
+        margin: 0.3rem 0;
+      }
+      i {
+        margin-right: 0.5rem;
       }
     }
   }

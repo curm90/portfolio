@@ -5,6 +5,7 @@ const Projects = () => {
     <section id='projects' className='projects__container'>
       <h1 className='projects__title'>PROJECTS</h1>
       <div className='project'>
+        <h3 className='project__title'>DevCoach</h3>
         <div className='project__description'>
           <p className='description__text'>
             DevCoach is a platform that allows software developers to
@@ -53,6 +54,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='project'>
+        <h3 className='project__title'>Weather App</h3>
         <div className='project__description'>
           <p className='description__text'>
             Need to know the weather forecast? Enter a location and
@@ -89,6 +91,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='project'>
+        <h3 className='project__title'>Chat App</h3>
         <div className='project__description'>
           <p className='description__text'>
             A real time chat app built using socket.io. Create a room
