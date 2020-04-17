@@ -1,5 +1,5 @@
 .projects__container {
-  @include flex(column, space-evenly, center);
+  @include flex(column, center, center);
   padding: $xxl-size 0;
   background: #efefef;
 
@@ -7,50 +7,40 @@
     font-size: $l-size;
     font-weight: bold;
     color: $dark-text;
-    margin: 0 0 $m-size 0;
+    margin: 0 0 $l-size 0;
   }
 
   .project-image__container {
     width: 100%;
     height: 22rem;
-    background: black;
+    background: #15181e;
   }
 
-  .project {
-    margin-top: $m-size 0;
+  .project__description {
+    margin: $m-size 0;
+    text-align: center;
+    padding: 0 $xs-size;
+    font-size: $s-size;
+  }
+
+  .tech__container {
+    height: 100%;
+
+    .tech__list {
+      .tech {
+        color: black;
+        font-size: $xs-size;
+      }
+    }
+  }
+  .project__links {
+    @include flex(row, space-evenly, center);
+    font-size: $s-size;
+
+    .project__link {
+      text-decoration: none;
+      border-bottom: 1px dashed black;
+      color: $dark-text;
+    }
   }
 }
-
-// .projects-container {
-//   @include flex(column, center, center);
-//   background: #f4f4ef;
-//   padding: $l-size;
-
-//   .project-title {
-//     font-size: $l-size;
-//     margin-bottom: $l-size;
-//     color: #484649;
-//     font-weight: bold;
-//   }
-
-//   .project {
-//     @include flex(row, space-evenly, center);
-//     width: 100%;
-//     margin: $m-size;
-//   }
-
-//   .project:nth-child(odd) {
-//     @include flex(row-reverse, space-evenly, center);
-//   }
-
-//   .description-text {
-//     width: 60rem;
-//     line-height: 1.2;
-//   }
-
-//   .project-image {
-//     background: black;
-//     width: 35rem;
-//     height: 20rem;
-//   }
-// }
