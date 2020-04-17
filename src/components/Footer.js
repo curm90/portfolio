@@ -13,14 +13,14 @@ const Footer = () => (
           target='blank'
           className='linkedin link'
         >
-          <i class='fab fa-linkedin-in'></i>
+          <i className='fab fa-linkedin-in'></i>
         </a>
         <a
           href='https://github.com/curm90'
           target='blank'
           className='github link'
         >
-          <i class='fab fa-github'></i>
+          <i className='fab fa-github'></i>
         </a>
         <a
           href='https://twitter.com/curm90'

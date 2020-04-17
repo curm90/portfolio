@@ -17,7 +17,7 @@ const Header = () => (
         target='blank'
         className='linkedin link'
       >
-        <i class='fab fa-linkedin-in'></i>
+        <i className='fab fa-linkedin-in'></i>
         LinkedIn
       </a>
       <a
@@ -25,7 +25,7 @@ const Header = () => (
         target='blank'
         className='github link'
       >
-        <i class='fab fa-github'></i>
+        <i className='fab fa-github'></i>
         GitHub
       </a>
       <a

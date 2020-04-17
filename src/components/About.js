@@ -2,7 +2,7 @@ import React from 'react';
 import Skills from './Skills';
 
 const About = () => (
-  <div id='about' className='about__container'>
+  <section id='about' className='about__container'>
     <h1 className='about__title'>ABOUT</h1>
     <div className='about-text__container'>
       <p className='about-text'>
@@ -12,7 +12,7 @@ const About = () => (
       </p>
       <Skills />
     </div>
-  </div>
+  </section>
 );
 
 export default About;
