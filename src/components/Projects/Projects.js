@@ -8,8 +8,8 @@ const Projects = () => {
     <section id='projects' className='projects__container'>
       <h1 className='projects__title'>PROJECTS</h1>
       <div className='project'>
-        <h3 className='project__title'>DevCoach</h3>
         <div className='project__description'>
+          <h3 className='project__title'>DevCoach</h3>
           <p className='description__text'>
             DevCoach is a platform that allows software developers to
             practice and enhance their technical interview skills.
@@ -17,25 +17,25 @@ const Projects = () => {
             easy to connect with coaches and work through a coding
             problem.
           </p>
-        </div>
-        <div className='tech__container'>
-          <ul className='tech__list'>
-            <li className='tech'>
-              <i className='fab fa-react'></i>React
-            </li>
-            <li className='tech'>
-              <i className='fab fa-node-js'></i>Node
-            </li>
-            <li className='tech'>
-              <i className='far fa-comments'></i>Pusher
-            </li>
-            <li className='tech'>
-              <i className='far fa-file-code'></i>Judge0
-            </li>
-            <li className='tech'>
-              <i className='fas fa-photo-video'></i>Twilio
-            </li>
-          </ul>
+          {/* <div className='tech__container'>
+            <ul className='tech__list'>
+              <li className='tech'>
+                <i className='fab fa-react'></i>React
+              </li>
+              <li className='tech'>
+                <i className='fab fa-node-js'></i>Node
+              </li>
+              <li className='tech'>
+                <i className='far fa-comments'></i>Pusher
+              </li>
+              <li className='tech'>
+                <i className='far fa-file-code'></i>Judge0
+              </li>
+              <li className='tech'>
+                <i className='fas fa-photo-video'></i>Twilio
+              </li>
+            </ul>
+          </div> */}
         </div>
         <div className='project-image__container'>
           <img
@@ -64,27 +64,27 @@ const Projects = () => {
         </div>
       </div>
       <div className='project'>
-        <h3 className='project__title'>Weather App</h3>
         <div className='project__description'>
+          <h3 className='project__title'>Weather App</h3>
           <p className='description__text'>
             Need to know the weather forecast? Enter a location and
             receive a summary of the current weather for that day.
           </p>
-        </div>
-        <div className='tech__container'>
-          <ul className='tech__list'>
-            <li className='tech'>
-              <i className='fab fa-node-js'></i>Node
-            </li>
-            <li className='tech'>
-              <i className='fas fa-bicycle'></i>hbs
-            </li>
-          </ul>
+          {/* <div className='tech__container'>
+            <ul className='tech__list'>
+              <li className='tech'>
+                <i className='fab fa-node-js'></i>Node
+              </li>
+              <li className='tech'>
+                <i className='fas fa-bicycle'></i>hbs
+              </li>
+            </ul>
+          </div> */}
         </div>
         <div className='project-image__container'>
           <img
-            src={chat}
-            alt='chat project'
+            src={weather}
+            alt='weather project'
             className='project__image'
           />
         </div>
@@ -108,27 +108,27 @@ const Projects = () => {
         </div>
       </div>
       <div className='project'>
-        <h3 className='project__title'>Chat App</h3>
         <div className='project__description'>
+          <h3 className='project__title'>Chat App</h3>
           <p className='description__text'>
             A real time chat app built using socket.io. Create a room
             for you and your friends and meet new people.
           </p>
-        </div>
-        <div className='tech__container'>
-          <ul className='tech__list'>
-            <li className='tech'>
-              <i className='fab fa-node-js'></i>Node
-            </li>
-            <li className='tech'>
-              <i className='far fa-comments'></i>Socket.io
-            </li>
-          </ul>
+          {/* <div className='tech__container'>
+            <ul className='tech__list'>
+              <li className='tech'>
+                <i className='fab fa-node-js'></i>Node
+              </li>
+              <li className='tech'>
+                <i className='far fa-comments'></i>Socket.io
+              </li>
+            </ul>
+          </div> */}
         </div>
         <div className='project-image__container'>
           <img
-            src={weather}
-            alt='weather project'
+            src={chat}
+            alt='chat project'
             className='project__image'
           />
         </div>

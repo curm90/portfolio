@@ -24,7 +24,7 @@
   }
 
   .project__title {
-    padding: 0 $xs-size;
+    // padding: 0 $xs-size;
     font-size: $m-size;
     text-align: center;
     font-weight: bold;
@@ -32,19 +32,21 @@
 
   .project__description {
     margin: $m-size 0;
-    text-align: center;
     padding: 0 $xs-size;
     font-size: $xs-size;
     color: $dark-text;
     line-height: 1.2;
   }
 
+  .description__text {
+    text-align: center;
+    margin: $s-size 0;
+  }
+
   .tech__container {
     height: 100%;
-    margin: $xs-size 0;
 
     .tech__list {
-      margin: 0 $s-size;
       .tech {
         color: black;
         font-size: $xs-size;
