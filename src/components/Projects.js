@@ -24,16 +24,16 @@ const Projects = () => {
               <i className='fab fa-react'></i>React
             </li>
             <li className='tech'>
-              <i class='fab fa-node-js'></i>Node
+              <i className='fab fa-node-js'></i>Node
             </li>
             <li className='tech'>
-              <i class='far fa-comments'></i>Pusher
+              <i className='far fa-comments'></i>Pusher
             </li>
             <li className='tech'>
-              <i class='far fa-file-code'></i>Judge0
+              <i className='far fa-file-code'></i>Judge0
             </li>
             <li className='tech'>
-              <i class='fas fa-photo-video'></i>Twilio
+              <i className='fas fa-photo-video'></i>Twilio
             </li>
           </ul>
         </div>
@@ -74,10 +74,10 @@ const Projects = () => {
         <div className='tech__container'>
           <ul className='tech__list'>
             <li className='tech'>
-              <i class='fab fa-node-js'></i>Node
+              <i className='fab fa-node-js'></i>Node
             </li>
             <li className='tech'>
-              <i class='fas fa-bicycle'></i>hbs
+              <i className='fas fa-bicycle'></i>hbs
             </li>
           </ul>
         </div>
@@ -118,10 +118,10 @@ const Projects = () => {
         <div className='tech__container'>
           <ul className='tech__list'>
             <li className='tech'>
-              <i class='fab fa-node-js'></i>Node
+              <i className='fab fa-node-js'></i>Node
             </li>
             <li className='tech'>
-              <i class='far fa-comments'></i>Socket.io
+              <i className='far fa-comments'></i>Socket.io
             </li>
           </ul>
         </div>
