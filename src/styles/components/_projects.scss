@@ -16,7 +16,7 @@
 
   .project:nth-child(3) {
     background: white;
-    padding: $s-size 0;
+    padding: $l-size 0;
 
     .project__title {
       color: $dark-text;
@@ -44,7 +44,7 @@
     margin: $xs-size 0;
 
     .tech__list {
-      margin: 0 $xs-size;
+      margin: 0 $s-size;
       .tech {
         color: black;
         font-size: $xs-size;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hamburger from './Hamburger';
 import SideDrawer from './SideDrawer';
 import Backdrop from './Backdrop';
-import resume from '../img/resume.pdf';
+import resume from '../../img/resume.pdf';
 
 const Navigation = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);

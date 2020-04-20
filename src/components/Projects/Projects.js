@@ -1,7 +1,7 @@
 import React from 'react';
-import devcoach from '../img/devcoach.jpg';
-import chat from '../img/chat.jpg';
-import weather from '../img/weather.jpg';
+import devcoach from '../../img/devcoach.jpg';
+import chat from '../../img/chat.jpg';
+import weather from '../../img/weather.jpg';
 
 const Projects = () => {
   return (

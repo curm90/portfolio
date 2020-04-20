@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../img/resume.pdf';
+import resume from '../../img/resume.pdf';
 
 const SideDrawer = ({ showSideDrawer, drawerClickHandler }) => {
   let drawerClasses = 'side-drawer__container';
