@@ -15,14 +15,16 @@
   }
 
   .project__title {
-    padding: 0 $s-size;
+    padding: 0 $xs-size;
+    font-size: $s-size;
+    text-align: center;
   }
 
   .project__description {
     margin: $m-size 0;
     text-align: center;
     padding: 0 $xs-size;
-    font-size: $s-size;
+    font-size: $xs-size;
   }
 
   .tech__container {
@@ -33,7 +35,7 @@
       margin: 0 $xs-size;
       .tech {
         color: black;
-        font-size: $s-size;
+        font-size: $xs-size;
         margin: 0.3rem 0;
       }
       i {
@@ -41,6 +43,7 @@
       }
     }
   }
+
   .project__links {
     @include flex(row, space-evenly, center);
     font-size: $s-size;
@@ -49,6 +52,19 @@
       text-decoration: none;
       border-bottom: 1px dashed black;
       color: $dark-text;
+    }
+  }
+
+  .project-image__container {
+    height: 25rem;
+    width: 100%;
+    margin: $s-size 0;
+
+    .project__image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(30%);
     }
   }
 }
