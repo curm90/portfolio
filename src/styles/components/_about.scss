@@ -1,6 +1,6 @@
 .about__container {
   @include flex(column, center, center);
-  margin: $xxl-size 0 0 0;
+  margin: $divider 0;
 
   .about__title {
     font-size: $l-size;
@@ -27,13 +27,14 @@
     font-size: $xs-size;
     color: $off-text;
     line-height: 1.2;
+    max-width: 60rem;
 
     @media (min-width: $tablet) {
       font-size: $s-size;
     }
 
     @media (min-width: $large) {
-      max-width: 90rem;
+      font-size: $m-size;
     }
   }
 }

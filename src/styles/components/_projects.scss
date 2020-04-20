@@ -1,6 +1,6 @@
 .projects__container {
   @include flex(column, center, center);
-  padding: $xxl-size 0;
+  padding: $divider 0;
   background: #efefef;
 
   .projects__title {
