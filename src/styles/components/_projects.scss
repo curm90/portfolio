@@ -16,15 +16,16 @@
     @include flex(column, center, center);
 
     @media (min-width: $tablet) {
-      @include flex(row, flex-start, center);
-      max-width: 120rem;
+      @include flex(row, space-evenly, center);
     }
   }
 
   .project:nth-child(3) {
-    background: white;
     padding: $l-size 0;
-    @include flex(row-reverse, center, center);
+
+    @media (min-width: $tablet) {
+      @include flex(row-reverse, space-evenly, center);
+    }
 
     .project__title {
       color: $dark-text;
@@ -55,14 +56,29 @@
     font-size: $s-size;
     width: 100%;
 
-    @media (min-width: $tablet) {
-      display: none;
-    }
-
     .project__link {
       text-decoration: none;
       border-bottom: 1px dashed black;
       color: $dark-text;
+    }
+  }
+
+  .project__links.tablet {
+    display: none;
+
+    @media (min-width: $tablet) {
+      @include flex(row, space-evenly, center);
+      margin: $s-size auto;
+      max-width: 20rem;
+      .project__link {
+        font-size: $xs-size;
+      }
+    }
+  }
+
+  @media (min-width: $tablet) {
+    .project__links.mobile {
+      display: none;
     }
   }
 
@@ -72,7 +88,8 @@
     margin: $s-size 0;
 
     @media (min-width: $tablet) {
-      width: 50%;
+      max-width: 40rem;
+      height: 30rem;
       margin: 0 $s-size;
       border-radius: 2px;
       box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);

@@ -17,6 +17,24 @@ const Projects = () => {
             easy to connect with coaches and work through a coding
             problem.
           </p>
+          <div className='project__links tablet'>
+            <a
+              href='https://www.dev-coach.com'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Visit Website
+            </a>
+            <a
+              href='https://github.com/LABS-EU3/quality_hub_frontend'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Source Code
+            </a>
+          </div>
         </div>
         <div className='project-image__container'>
           <img
@@ -25,7 +43,7 @@ const Projects = () => {
             className='project__image'
           />
         </div>
-        <div className='project__links'>
+        <div className='project__links mobile'>
           <a
             href='https://www.dev-coach.com'
             className='project__link'
@@ -51,6 +69,24 @@ const Projects = () => {
             Need to know the weather forecast? Enter a location and
             receive a summary of the current weather for that day.
           </p>
+          <div className='project__links tablet'>
+            <a
+              href='https://weather-application-sutton.herokuapp.com/'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Visit Website
+            </a>
+            <a
+              href='https://github.com/curm90/NodeJs-weather-app'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Source Code
+            </a>
+          </div>
         </div>
         <div className='project-image__container'>
           <img
@@ -59,7 +95,7 @@ const Projects = () => {
             className='project__image'
           />
         </div>
-        <div className='project__links'>
+        <div className='project__links mobile'>
           <a
             href='https://weather-application-sutton.herokuapp.com/'
             className='project__link'
@@ -85,6 +121,24 @@ const Projects = () => {
             A real time chat app built using socket.io. Create a room
             for you and your friends and meet new people.
           </p>
+          <div className='project__links tablet'>
+            <a
+              href='https://chat-app-sutton.herokuapp.com/'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Visit Website
+            </a>
+            <a
+              href='https://github.com/curm90/Chat-App'
+              className='project__link'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Source Code
+            </a>
+          </div>
         </div>
         <div className='project-image__container'>
           <img
@@ -93,7 +147,7 @@ const Projects = () => {
             className='project__image'
           />
         </div>
-        <div className='project__links'>
+        <div className='project__links mobile'>
           <a
             href='https://chat-app-sutton.herokuapp.com/'
             className='project__link'
