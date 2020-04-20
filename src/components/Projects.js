@@ -1,4 +1,7 @@
 import React from 'react';
+import devcoach from '../img/devcoach.jpg';
+import chat from '../img/chat.jpg';
+import weather from '../img/weather.jpg';
 
 const Projects = () => {
   return (
@@ -33,6 +36,13 @@ const Projects = () => {
               <i class='fas fa-photo-video'></i>Twilio
             </li>
           </ul>
+        </div>
+        <div className='project-image__container'>
+          <img
+            src={devcoach}
+            alt='devcoach project'
+            className='project__image'
+          />
         </div>
         <div className='project__links'>
           <a
@@ -71,6 +81,13 @@ const Projects = () => {
             </li>
           </ul>
         </div>
+        <div className='project-image__container'>
+          <img
+            src={chat}
+            alt='chat project'
+            className='project__image'
+          />
+        </div>
         <div className='project__links'>
           <a
             href='https://weather-application-sutton.herokuapp.com/'
@@ -107,6 +124,13 @@ const Projects = () => {
               <i class='far fa-comments'></i>Socket.io
             </li>
           </ul>
+        </div>
+        <div className='project-image__container'>
+          <img
+            src={weather}
+            alt='weather project'
+            className='project__image'
+          />
         </div>
         <div className='project__links'>
           <a
