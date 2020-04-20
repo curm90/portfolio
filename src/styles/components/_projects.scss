@@ -12,11 +12,19 @@
 
   .project {
     margin: $m-size 0;
+    width: 100%;
+    @include flex(column, center, center);
+
+    @media (min-width: $tablet) {
+      @include flex(row, flex-start, center);
+      max-width: 120rem;
+    }
   }
 
   .project:nth-child(3) {
     background: white;
     padding: $l-size 0;
+    @include flex(row-reverse, center, center);
 
     .project__title {
       color: $dark-text;
@@ -24,43 +32,32 @@
   }
 
   .project__title {
-    // padding: 0 $xs-size;
     font-size: $m-size;
     text-align: center;
     font-weight: bold;
   }
 
   .project__description {
-    margin: $m-size 0;
     padding: 0 $xs-size;
     font-size: $xs-size;
     color: $dark-text;
     line-height: 1.2;
+    max-width: 40rem;
   }
 
   .description__text {
     text-align: center;
-    margin: $s-size 0;
-  }
-
-  .tech__container {
-    height: 100%;
-
-    .tech__list {
-      .tech {
-        color: black;
-        font-size: $xs-size;
-        margin: 0.3rem 0;
-      }
-      i {
-        margin-right: 0.5rem;
-      }
-    }
+    margin-top: $s-size;
   }
 
   .project__links {
     @include flex(row, space-evenly, center);
     font-size: $s-size;
+    width: 100%;
+
+    @media (min-width: $tablet) {
+      display: none;
+    }
 
     .project__link {
       text-decoration: none;
@@ -73,6 +70,13 @@
     height: 25rem;
     width: 100%;
     margin: $s-size 0;
+
+    @media (min-width: $tablet) {
+      width: 50%;
+      margin: 0 $s-size;
+      border-radius: 2px;
+      box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
+    }
 
     .project__image {
       height: 100%;

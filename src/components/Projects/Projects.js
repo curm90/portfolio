@@ -17,25 +17,6 @@ const Projects = () => {
             easy to connect with coaches and work through a coding
             problem.
           </p>
-          {/* <div className='tech__container'>
-            <ul className='tech__list'>
-              <li className='tech'>
-                <i className='fab fa-react'></i>React
-              </li>
-              <li className='tech'>
-                <i className='fab fa-node-js'></i>Node
-              </li>
-              <li className='tech'>
-                <i className='far fa-comments'></i>Pusher
-              </li>
-              <li className='tech'>
-                <i className='far fa-file-code'></i>Judge0
-              </li>
-              <li className='tech'>
-                <i className='fas fa-photo-video'></i>Twilio
-              </li>
-            </ul>
-          </div> */}
         </div>
         <div className='project-image__container'>
           <img
@@ -70,16 +51,6 @@ const Projects = () => {
             Need to know the weather forecast? Enter a location and
             receive a summary of the current weather for that day.
           </p>
-          {/* <div className='tech__container'>
-            <ul className='tech__list'>
-              <li className='tech'>
-                <i className='fab fa-node-js'></i>Node
-              </li>
-              <li className='tech'>
-                <i className='fas fa-bicycle'></i>hbs
-              </li>
-            </ul>
-          </div> */}
         </div>
         <div className='project-image__container'>
           <img
@@ -114,16 +85,6 @@ const Projects = () => {
             A real time chat app built using socket.io. Create a room
             for you and your friends and meet new people.
           </p>
-          {/* <div className='tech__container'>
-            <ul className='tech__list'>
-              <li className='tech'>
-                <i className='fab fa-node-js'></i>Node
-              </li>
-              <li className='tech'>
-                <i className='far fa-comments'></i>Socket.io
-              </li>
-            </ul>
-          </div> */}
         </div>
         <div className='project-image__container'>
           <img
