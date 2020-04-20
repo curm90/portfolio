@@ -36,6 +36,10 @@
     font-size: $m-size;
     text-align: center;
     font-weight: bold;
+
+    @media (min-width: $large) {
+      font-size: 2.8rem;
+    }
   }
 
   .project__description {
@@ -44,6 +48,15 @@
     color: $dark-text;
     line-height: 1.2;
     max-width: 40rem;
+
+    @media (min-width: $tablet) {
+      font-size: $s-size;
+    }
+
+    @media (min-width: $large) {
+      font-size: $m-size;
+      max-width: 70rem;
+    }
   }
 
   .description__text {
@@ -69,9 +82,17 @@
     @media (min-width: $tablet) {
       @include flex(row, space-evenly, center);
       margin: $s-size auto;
-      max-width: 20rem;
+      max-width: 35rem;
+
       .project__link {
-        font-size: $xs-size;
+        font-size: $s-size;
+        transition: all 0.1s ease-out;
+
+        &:hover {
+          transition: all 0.1s ease-in;
+          color: $primary;
+          border-color: $primary;
+        }
       }
     }
   }
