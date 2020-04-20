@@ -14,10 +14,20 @@
     margin: $m-size 0;
   }
 
+  .project:nth-child(3) {
+    background: white;
+    padding: $s-size 0;
+
+    .project__title {
+      color: $dark-text;
+    }
+  }
+
   .project__title {
     padding: 0 $xs-size;
-    font-size: $s-size;
+    font-size: $m-size;
     text-align: center;
+    font-weight: bold;
   }
 
   .project__description {
@@ -25,6 +35,8 @@
     text-align: center;
     padding: 0 $xs-size;
     font-size: $xs-size;
+    color: $dark-text;
+    line-height: 1.2;
   }
 
   .tech__container {
