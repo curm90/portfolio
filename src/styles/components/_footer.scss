@@ -1,7 +1,6 @@
 .footer__container {
   background: $background;
   @include flex(column, space-between, center);
-  padding: $xl-size 0 0 0;
   height: 35rem;
 
   .contact__container {

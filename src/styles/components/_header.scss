@@ -27,11 +27,11 @@
 
     .link {
       color: $light-text;
-      border-bottom: 1px dashed $light-text;
+      border-bottom: 1px dashed $secondary;
       text-decoration: none;
       transition: all ease-out 0.1s;
 
-      @media (min-width: $large) {
+      @media (min-width: $tablet) {
         font-size: $s-size;
 
         &:hover {
@@ -48,6 +48,7 @@
 
     i {
       margin: 0 0.3rem 0 0;
+      color: $light-text;
     }
   }
 }
