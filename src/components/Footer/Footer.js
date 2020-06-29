@@ -2,9 +2,7 @@ import React from 'react';
 import Contact from './Contact';
 
 const Footer = () => (
-  <section className='footer__container'>
-    <h1 className='title'>CONTACT</h1>
-    <p className='contact__text'>Want to chat or get in touch?</p>
+  <section id='contact' className='footer__container'>
     <Contact />
     <div className='links__container'>
       <div className='social__links'>

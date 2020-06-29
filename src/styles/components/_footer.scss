@@ -1,8 +1,18 @@
 .footer__container {
   background: $background;
   @include flex(column, space-between, center);
-  height: 58rem;
   padding: $xl-size 0 0 0;
+  height: 35rem;
+
+  .contact__container {
+    @include flex(column, space-evenly, center);
+    height: 100%;
+
+    .button {
+      margin: 0;
+      text-decoration: none;
+    }
+  }
 
   .title {
     color: $light-text;
